@@ -1,0 +1,91 @@
+DELETE http://localhost:8080/api/products/11
+Accept: application/json
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8080/api/products/11
+Accept: application/json
+Content-Type: application/json
+
+{
+    "title": "new title",
+    "image": "new image"
+}
+
+<> 2021-03-19T055804.202.json
+
+###
+
+POST http://localhost:8080/api/products/11
+Accept: application/json
+Content-Type: application/json
+
+{
+    "title": "new title",
+    "image": "new image"
+}
+
+<> 2021-03-19T055746.405.json
+
+###
+
+POST http://localhost:8080/api/products
+Accept: application/json
+Content-Type: application/json
+
+{
+    "title": "title",
+    "image": "image"
+}
+
+<> 2021-03-19T030347.201.json
+
+###
+
+POST http://localhost:8080/api/products
+Accept: application/json
+Content-Type: application/json
+
+{
+    "title": "title",
+    "image": "image"
+}
+
+<> 2021-03-19T030310.500.json
+
+###
+
+POST http://localhost:8080/api/products
+Accept: application/json
+Content-Type: application/json
+
+{
+    "title": "title",
+    "image": "image"
+}
+
+<> 2021-03-19T025203.500.json
+
+###
+
+GET http://localhost:8080:/api/products/1
+Accept: application/json
+
+<> 2021-03-19T023633.200.json
+
+###
+
+GET http://localhost:8080/api/products
+Accept: application/json
+
+<> 2021-03-19T023348.200.json
+
+###
+
+GET http://localhost:8080/api/products
+
+<> 2021-03-19T023325.200.json
+
+###
+
